@@ -1,6 +1,6 @@
 {
   "private": true,
-  "author":"王石浩 <wangshihao@wjbrain.com>",
+  "author": "王石浩 <wangshihao@wjbrain.com>",
   "scripts": {
     "dev": "umi dev",
     "build": "umi build",
@@ -9,7 +9,10 @@
     "start": "npm run dev"
   },
   "dependencies": {
-    "umi": "^4.0.25"
+    "@umijs/plugins": "^4.0.25",
+    "@unocss/cli": "^0.45.30",
+    "umi": "^4.0.25",
+    "unocss": "^0.45.30"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
